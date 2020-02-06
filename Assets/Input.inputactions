@@ -1,0 +1,71 @@
+{
+    "name": "Input",
+    "maps": [
+        {
+            "name": "Play",
+            "id": "cef78cfe-a7b2-4705-a648-553bdff9c7c0",
+            "actions": [
+                {
+                    "name": "CameraH",
+                    "type": "Value",
+                    "id": "15a8b6b2-accb-4a07-97c9-52c07b4e8395",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CameraV",
+                    "type": "Value",
+                    "id": "1c2dacb0-ab7b-4e36-833d-e80e83a84084",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CameraZoom",
+                    "type": "Value",
+                    "id": "4ffc3cde-5c14-4091-be0c-870ba37045c0",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cb574cd9-f516-4813-ade9-ad7fab6dea44",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraH",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f081d347-6445-4d55-a2c2-45b982c07ad8",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraV",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e9d90ee-b067-4868-8d8f-a5e1082fe9eb",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraZoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
